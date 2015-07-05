@@ -1,0 +1,230 @@
+<ui version="4.0" >
+ <class>Qt1</class>
+ <widget class="QDialog" name="Qt1" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>514</width>
+    <height>377</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="pbOK" >
+   <property name="geometry" >
+    <rect>
+     <x>30</x>
+     <y>130</y>
+     <width>80</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>Add</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbExit" >
+   <property name="geometry" >
+    <rect>
+     <x>170</x>
+     <y>130</y>
+     <width>80</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>exit</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le1" >
+   <property name="geometry" >
+    <rect>
+     <x>30</x>
+     <y>70</y>
+     <width>91</width>
+     <height>28</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le2" >
+   <property name="geometry" >
+    <rect>
+     <x>180</x>
+     <y>70</y>
+     <width>91</width>
+     <height>28</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="leRes" >
+   <property name="geometry" >
+    <rect>
+     <x>340</x>
+     <y>70</y>
+     <width>91</width>
+     <height>28</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label" >
+   <property name="geometry" >
+    <rect>
+     <x>140</x>
+     <y>80</y>
+     <width>41</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2" >
+   <property name="geometry" >
+    <rect>
+     <x>300</x>
+     <y>80</y>
+     <width>31</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>=</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbthstart" >
+   <property name="geometry" >
+    <rect>
+     <x>30</x>
+     <y>190</y>
+     <width>80</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>threadstart</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbthstop" >
+   <property name="geometry" >
+    <rect>
+     <x>30</x>
+     <y>240</y>
+     <width>80</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>threadstop</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbthstart2" >
+   <property name="geometry" >
+    <rect>
+     <x>150</x>
+     <y>190</y>
+     <width>80</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>threadstart2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbthstop2" >
+   <property name="geometry" >
+    <rect>
+     <x>150</x>
+     <y>240</y>
+     <width>80</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>threadstop2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbprstart" >
+   <property name="geometry" >
+    <rect>
+     <x>270</x>
+     <y>190</y>
+     <width>80</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>procssstart</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbprstop" >
+   <property name="geometry" >
+    <rect>
+     <x>270</x>
+     <y>240</y>
+     <width>80</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>processstop</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbprstart2" >
+   <property name="geometry" >
+    <rect>
+     <x>390</x>
+     <y>190</y>
+     <width>80</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>procssstart2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbprstop2" >
+   <property name="geometry" >
+    <rect>
+     <x>390</x>
+     <y>240</y>
+     <width>80</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>processstop2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbNet" >
+   <property name="geometry" >
+    <rect>
+     <x>30</x>
+     <y>310</y>
+     <width>80</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>net</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbNet2" >
+   <property name="geometry" >
+    <rect>
+     <x>160</x>
+     <y>310</y>
+     <width>80</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>net2</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
